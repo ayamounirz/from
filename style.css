@@ -1,0 +1,77 @@
+body{
+    background-color: #f5f5f0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+div {
+    justify-content: center;
+    text-align: center;
+}
+div .fa-solid{
+     display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 40px;
+    margin-top: 40px;
+}
+form{ 
+    flex-direction: column;
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    max-width: 450px;
+    margin: 0 auto;
+
+}
+form input{
+    background-color: #dce9dc;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+form input ::placeholder{
+    color: #5a7a5a;
+}
+form button{
+    background-color: #4c984cd4;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px 20px ;
+    border-radius: 25px;
+     width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+}
+.divider{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+.divider span{
+    flex: 1;
+    height: 1px;
+    background-color: #aaa;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+}
+.already{
+    margin-top: 70px;
+}
+.already a{
+    color: #4a7c59;
+}

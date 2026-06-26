@@ -74,3 +74,12 @@ form button{
 .already a{
     color: #4a7c59;
 }
+@media (max-width: 400px){
+    form{
+        width: 95%
+    }
+    body{
+        justify-content: flex-start;
+        padding-top: 20px;
+    }
+}

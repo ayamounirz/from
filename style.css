@@ -3,9 +3,8 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 div {
     justify-content: center;
@@ -14,9 +13,8 @@ div {
 div .fa-solid{
      display: flex;
     justify-content: center;
-    gap: 30px;
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 form{ 
     flex-direction: column;
@@ -24,8 +22,6 @@ form{
     display: flex;
     gap: 10px;
     max-width: 450px;
-    margin: 0 auto;
-
 }
 form input{
     background-color: #dce9dc;
@@ -70,17 +66,8 @@ form button{
     font-size: 30px;
 }
 .already{
-    margin-top: 19px;
+    margin-top: 20px;
 }
 .already a{
     color: #4a7c59;
-}
-@media (max-width: 400px){
-    form{
-        width: 95%
-    }
-    body{
-        justify-content: flex-start;
-        padding-top: 20px;
-    }
 }
